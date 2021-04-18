@@ -10,7 +10,7 @@ let initialLoad = true;
 
 // Unsplash API
 let initialCount = 5;
-const apiKey = 'P6_qm2FLMUouZQNaZFKtNfMkhNXdjTwYlrpaGr4UylE';
+const apiKey = 'P6_qm2FLMUouZQNaZFKtNfMkhNXdjTwYlrpaGr4UylE'; 
 let apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${initialCount}`;
 
 function updateApiUrlWithNewCount(picCount) {
